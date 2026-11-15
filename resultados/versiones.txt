@@ -1,0 +1,10 @@
+pandas 2.2.3
+numpy 2.3.5
+matplotlib 3.10.8
+seaborn 0.13.2
+sklearn 1.8.0
+imblearn 0.14.2
+xgboost 3.4.1
+sqlalchemy 2.1.8
+pymysql 2.2.8
+plotly 7.1.0

@@ -1,0 +1,67 @@
+{
+  "ganador": {
+    "modelo": "Random Forest",
+    "auc_cv": 0.8470558204377608,
+    "auc_validacion": 0.8384109638585343,
+    "auc_pr_test": 0.6448056952531351,
+    "auc_roc_test": 0.8421245705133172,
+    "umbral": 0.05,
+    "valor_validacion_usd": 62450,
+    "exactitud_test": 0.5102909865152591,
+    "precision_test": 0.3495238095238095,
+    "recall_test": 0.9812834224598931,
+    "tn": 352,
+    "fp": 683,
+    "fn": 7,
+    "tp": 367,
+    "valor_usd": 64410,
+    "valor_por_cliente": 45.71327182398864,
+    "contactos": 1050
+  },
+  "politicas": {
+    "ninguno": {
+      "tn": 1035,
+      "fp": 0,
+      "fn": 374,
+      "tp": 0,
+      "valor_usd": -224400,
+      "valor_por_cliente": -159.26188786373314,
+      "contactos": 0
+    },
+    "todos": {
+      "tn": 0,
+      "fp": 1035,
+      "fn": 0,
+      "tp": 374,
+      "valor_usd": 52970,
+      "valor_por_cliente": 37.594038325053226,
+      "contactos": 1409
+    },
+    "umbral_050": {
+      "tn": 917,
+      "fp": 118,
+      "fn": 166,
+      "tp": 208,
+      "valor_usd": -47260,
+      "valor_por_cliente": -33.541518807665014,
+      "contactos": 326
+    },
+    "optimizada": {
+      "tn": 352,
+      "fp": 683,
+      "fn": 7,
+      "tp": 367,
+      "valor_usd": 64410,
+      "valor_por_cliente": 45.71327182398864,
+      "contactos": 1050
+    }
+  },
+  "particiones": {
+    "entrenamiento": 4225,
+    "validacion": 1409,
+    "prueba": 1409
+  },
+  "roi_incremental_escenario": 5.501142857142857,
+  "costo_campania_usd": 52500,
+  "beneficio_bruto_incremental_usd": 341310
+}

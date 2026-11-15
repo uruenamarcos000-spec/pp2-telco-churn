@@ -1,0 +1,13 @@
+digraph churn {
+  graph [rankdir=LR, bgcolor="white", pad=.25, nodesep=.28, ranksep=.95, labelloc=t,
+         label="churn_db  |  Diagrama entidad-relación", fontname="DejaVu Sans", fontsize=20];
+  node [shape=record, style=filled, fillcolor="#eff8f6", color="#17776d", fontname="DejaVu Sans"];
+  edge [color="#64748b", fontname="DejaVu Sans", fontsize=10];
+  clientes [label="{clientes|PK id_cliente · VARCHAR(16)\lgenero · VARCHAR(16)\ladulto_mayor · TINYINT\lpareja, dependientes · ENUM\lantiguedad_meses · SMALLINT\l}"];
+  servicios [label="{servicios|PK id_servicio · INT AUTO_INCREMENT\lFK UNIQUE id_cliente · VARCHAR(16)\lservicio_telefonico, lineas_multiples · VARCHAR(20)\linternet · VARCHAR(20)\lseguridad_en_linea, respaldo_en_linea · VARCHAR(24)\lproteccion_dispositivo, soporte_tecnico · VARCHAR(24)\lstreaming_tv, streaming_peliculas · VARCHAR(24)\l}"];
+  facturacion [label="{facturacion|PK/FK id_cliente · VARCHAR(16)\ltipo_contrato · VARCHAR(25)\lfacturacion_digital · ENUM\lmetodo_pago · VARCHAR(35)\lcargo_mensual, cargo_total · DECIMAL(10,2)\l}"];
+  registro [label="{registro_churn|PK/FK id_cliente · VARCHAR(16)\lchurn · ENUM\l}"];
+  clientes -> servicios [label="1 a 0..1", arrowhead=none];
+  clientes -> facturacion [label="1 a 0..1", arrowhead=none];
+  clientes -> registro [label="1 a 0..1", arrowhead=none];
+}

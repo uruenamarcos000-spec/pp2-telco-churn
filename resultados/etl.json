@@ -1,0 +1,12 @@
+{
+  "filas_origen": 7043,
+  "columnas": 21,
+  "filas_finales": 7043,
+  "imputados": 11,
+  "duplicados_exactos": 0,
+  "atipicos_iqr": {
+    "antiguedad_meses": 0,
+    "cargo_mensual": 0,
+    "cargo_total": 0
+  }
+}

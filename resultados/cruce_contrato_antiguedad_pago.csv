@@ -1,0 +1,25 @@
+tipo_contrato,etapa,metodo_pago,clientes,bajas
+Month-to-month,0 a 12 meses,Bank transfer (automatic),208,101
+Month-to-month,0 a 12 meses,Credit card (automatic),191,79
+Month-to-month,0 a 12 meses,Electronic check,954,602
+Month-to-month,0 a 12 meses,Mailed check,641,242
+Month-to-month,Más de 12 meses,Bank transfer (automatic),381,100
+Month-to-month,Más de 12 meses,Credit card (automatic),352,99
+Month-to-month,Más de 12 meses,Electronic check,896,392
+Month-to-month,Más de 12 meses,Mailed check,252,40
+One year,0 a 12 meses,Bank transfer (automatic),12,2
+One year,0 a 12 meses,Credit card (automatic),20,2
+One year,0 a 12 meses,Electronic check,23,4
+One year,0 a 12 meses,Mailed check,69,5
+One year,Más de 12 meses,Bank transfer (automatic),379,36
+One year,Más de 12 meses,Credit card (automatic),378,39
+One year,Más de 12 meses,Electronic check,324,60
+One year,Más de 12 meses,Mailed check,268,18
+Two year,0 a 12 meses,Bank transfer (automatic),9,0
+Two year,0 a 12 meses,Credit card (automatic),14,0
+Two year,0 a 12 meses,Electronic check,1,0
+Two year,0 a 12 meses,Mailed check,44,0
+Two year,Más de 12 meses,Bank transfer (automatic),555,19
+Two year,Más de 12 meses,Credit card (automatic),567,13
+Two year,Más de 12 meses,Electronic check,167,13
+Two year,Más de 12 meses,Mailed check,338,3
